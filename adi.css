@@ -14,5 +14,5 @@ body {
     -webkit-background-clip: text; /* For Safari */
     -webkit-text-fill-color: transparent; /* For Safari */
     background-clip: text; /* Non-prefixed version */
-    text-fill-color: transparent; /* Non-prefixed version */
+   
 }
