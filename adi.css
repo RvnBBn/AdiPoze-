@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+.rainbow {
+    font-size: 5rem; /* Adjust size as needed */
+    font-weight: bold; /* Make the text bold */
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    background-clip: text; /* Non-prefixed version */
+    text-fill-color: transparent; /* Non-prefixed version */
+}
